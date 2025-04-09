@@ -11,7 +11,7 @@
         /* Page Header Styles */
         .page-header {
             height: 300px;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('contact-bg.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b9.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -296,7 +296,6 @@
     <section class="page-header">
         <div class="header-content">
             <h1>Contact Us</h1>
-            <p>Get in touch with our expert team for all your real estate needs</p>
         </div>
     </section>
 
@@ -305,12 +304,12 @@
         <div class="container">
             <div class="contact-intro">
                 <h2>Get In Touch</h2>
-                <p>We are not office traditionalists, our business is everywhere and so are we. You can find us remotely between Dar es Salaam and Zanzibar, Tanzania..</p>
+                <p>We are not office traditionalists, our business is everywhere and so are we.<br> You can find us remotely between Dar es Salaam and Zanzibar, Tanzania..</p>
             </div>
             
             <div class="contact-content">
                 <div class="contact-form-container">
-                    <h3>Send Us a Message</h3>
+                    <h3>Contact us today for a free quote</h3>
                     <form class="contact-form" action="process_contact.php" method="post">
                         <div class="form-group">
                             <label for="name">Full Name</label>
@@ -365,7 +364,7 @@
                         <div class="info-details">
                             <h4>Email Us</h4>
                             <p><a href="mailto:info@promaafrica.com">info@promaafrica.com</a></p>
-                            <p><a href="mailto:support@promaafrica.com">support@promaafrica.com</a></p>
+                           
                         </div>
                     </div>
                     
@@ -408,7 +407,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="1.jpg" alt="Proma Africa Logo">
+                    <img src="1.png" alt="Proma Africa Logo">
                     <p>Your trusted partner in property valuation and real estate services.</p>
                 </div>
                 <div class="footer-links">
@@ -422,13 +421,13 @@
                     </ul>
                 </div>
                 <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to our newsletter for the latest updates</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email Address">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
+    <h4>Newsletter</h4>
+    <p>Subscribe to our newsletter for the latest updates</p>
+    <form class="newsletter-form" action="subscribe.php" method="POST">
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>

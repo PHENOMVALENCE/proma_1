@@ -13,7 +13,7 @@
         /* Page Header Styles */
         .page-header {
             height: 300px;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('news-bg.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b4.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -461,9 +461,34 @@
             </div>
         </div>
     </section>
+    
+    <section class="featured-article" data-category="Property Development"
+         data-title="Property Development Process in Tanzania"
+         data-author="by PRV Baraka Andrew" data-date="October 26, 2023"
+         data-fulltext="Property development is the process of acquiring land and constructing buildings for occupation, sale or investment. Development also includes improving and/or changing the use of existing buildings. Development value - where the value of land or buildings can be increased by the application of capital. Property development is an entrepreneurial activity that seeks to satisfy demand in the property market, by involving the use of factors of production; LAND for site, LABOUR to design, construct and manage the process; CAPITAL to pay for process. A property developer combines LAND, LABOUR & CAPITAL for a lifetime investment. At Proma Africa, we assist on the following for professional and sound decision making: 1. Proma Africa will carry-out market search on demand for the property suggested by our Client and provide alternatives if there is any. 2. Proma Africa will facilitate selection of a location and identify a good site for our property development. 3. Proma Africa will assist in land acquisition, either from the Government for investment purposes or through Private purchase. 4. Proma Africa will assist in seeking planning consents for the property development. 5. Proma Africa will assist on documenting the financing stage/ source of finance. 6. Proma Africa will produce a detailed plan on the property development. 7. Proma Africa will will assist in issuing tender documents for construction. 8. Proma Africa will conduct market search for SELL or LETTING or even PROPERTY MANAGEMENT. 9. Proma Africa will conduct a post-occupancy survey and reporting as specified by a client. The process is not linear it can vary basing on the availability of resources, or some activities can take part in parallel. Proma Africa will advise our clients to carry-out a pre-marketing advertisement on property developed basing on the nature and market conditions.">
+    <div class="container">
+        <div class="featured-card">
+            <div class="featured-image">
+                <i class="fas fa-home fa-5x"></i>
+            </div>
+            <div class="featured-content">
+                <span class="category-tag">Property Development</span>
+                <h2>Property Development Process in Tanzania</h2>
+                <p class="meta">
+                    <span class="author"><i class="fas fa-user" style="margin-right: 5px;"></i> By Proma Africa</span>
+                    <span class="date"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> April 20, 2025</span>
+                </p>
+                <p class="excerpt">
+                    Property development is the process of acquiring land and constructing buildings for occupation, sale or investment. Development also includes improving and/or changing the use of existing buildings.
+                </p>
+                <a href="#" class="read-more-btn">Read Full Article</a>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section class="featured-article" data-category="sustainability" data-title="The Future of Sustainable Real Estate in Africa"
-        data-author="Proma Africa Research Team" data-date="April 20, 2025"
+        data-author="by Baraka Andrew" data-date="April 3, 2025"
         data-fulltext="Africa's real estate sector is undergoing a significant transformation with sustainability at its core. This comprehensive analysis explores how green building practices, renewable energy integration, and environmental considerations are reshaping property development across the continent.">
         <div class="container">
             <div class="featured-card">
@@ -491,7 +516,7 @@
             <h2>Latest Articles</h2>
             <div class="news-grid">
                 <div class="news-card" data-category="market-trends"
-                    data-title="The Impact of ESG on African Real Estate Valuations" data-date="April 15, 2025"
+                    data-title="The Impact of ESG on African Real Estate Valuations" data-date="April 7, 2025"
                     data-fulltext="Environmental, Social, and Governance (ESG) criteria are increasingly influencing property valuations across Africa. This shift represents a fundamental change in how assets are valued, with sustainable properties commanding premium prices.">
                     <div class="news-img" style="background-color: #f5f9ff;">
                         <i class="fas fa-chart-area"></i>
@@ -559,27 +584,12 @@
                     <div class="news-content">
                         <span class="category-tag" style="background-color: #ffe5e5; color: #e74c3c;">Investment</span>
                         <h3>Emerging Investment Opportunities in African Commercial Real Estate</h3>
-                        <p class="date"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> February 15, 2025</p>
+                        <p class="date"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> March 15, 2025</p>
                         <p>The commercial real estate sector in Africa is presenting unique investment opportunities, particularly in logistics, healthcare facilities, and mixed-use developments. Our experts analyze the most promising submarkets.</p>
                         <a href="#" class="read-more">Read More</a>
                     </div>
-                </div>
+                </div> </div>
 
-                <div class="news-card" data-category="policy-updates"
-                    data-title="Regulatory Changes Affecting Property Ownership in Key African Markets" data-date="January 30, 2025"
-                    data-fulltext="Recent policy reforms across several African nations are reshaping property rights, foreign ownership regulations, and land use planning. This comprehensive guide helps investors navigate the changing regulatory landscape.">
-                    <div class="news-img" style="background-color: #f5faff;">
-                        <i class="fas fa-file-contract"></i>
-                    </div>
-                    <div class="news-content">
-                        <span class="category-tag" style="background-color: #e5f2ff; color: #3498db;">Policy Updates</span>
-                        <h3>Regulatory Changes Affecting Property Ownership in Key African Markets</h3>
-                        <p class="date"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> January 30, 2025</p>
-                        <p>Recent policy reforms across several African nations are reshaping property rights, foreign ownership regulations, and land use planning. This comprehensive guide helps investors navigate the changing regulatory landscape.</p>
-                        <a href="#" class="read-more">Read More</a>
-                    </div>
-                </div>
-            </div>
 
             <div class="pagination">
                 <a href="#" class="active">1</a>
@@ -597,7 +607,7 @@
                     <h3><i class="far fa-envelope" style="margin-right: 10px; color: #f6ae01;"></i> Stay Informed</h3>
                     <p>Subscribe to our newsletter to receive the latest insights, market reports, and industry analysis directly to your inbox.</p>
                 </div>
-                <form class="newsletter-form">
+                <form class="newsletter-form" action="subscribe.php">
                     <input type="email" placeholder="Your Email Address" required>
                     <button type="submit">Subscribe</button>
                 </form>
@@ -625,7 +635,7 @@
                 <div class="footer-newsletter">
                     <h4>Newsletter</h4>
                     <p>Subscribe to our newsletter for the latest updates</p>
-                    <form class="newsletter-form">
+                    <form class="newsletter-form" action="subscribe.php">
                         <input type="email" placeholder="Your Email Address">
                         <button type="submit">Subscribe</button>
                     </form>

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Land Surveying - Proma Africa</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Services Page Specific Styles (same as your provided code) */
-
         /* Page Header Styles */
         .page-header {
             height: 300px;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b8.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b4.jpg');
+            /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             display: flex;
@@ -125,6 +125,7 @@
         .cta-section {
             padding: 80px 0;
             background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg');
+            /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             color: white;
@@ -145,6 +146,37 @@
             font-size: 1.2rem;
             margin-bottom: 30px;
         }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f6ae01;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #e09d00;
+        }
+
+        /* Footer Styles (you might have these in styles.css) */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Add more footer styles as needed */
 
         /* Responsive Styles */
         @media screen and (max-width: 768px) {
@@ -171,6 +203,7 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -201,48 +234,81 @@
     <section class="page-header">
         <div class="header-content">
             <h1>Land Surveying</h1>
-            <p>Accurate land surveying services for your property needs.</p>
+            <p>Precise and reliable land surveying services for all your needs.</p>
         </div>
     </section>
 
     <section class="services-detailed">
         <div class="container">
             <div class="services-intro">
-                <h2>Precise Land Surveying Solutions</h2>
-                <p>Our professional land surveying services provide accurate measurements and detailed mapping of property boundaries, topography, and geographical features. Using advanced technology and methodologies, we ensure precise data collection for property transactions, development projects, and land administration.</p>
+                <h2>Accurate Land Surveying for Personal, Private, and Government Use</h2>
+                <p>Proma Africa offers professional land surveying services that involve the precise measurement and mapping of land. Our surveys are essential for determining boundaries, size, and characteristics of a plot, crucial for various purposes including personal property management, private institutional development, and government land administration.</p>
+                <p>We utilize advanced surveying equipment and techniques to ensure accuracy and reliability in all our projects, providing our clients with the critical information they need to make informed decisions about their land.</p>
             </div>
-            
+
             <div class="service-detailed-item">
                 <div class="service-icon">
-                    <i class="fas fa-building"></i>
+                    <i class="fas fa-ruler-combined"></i>
                 </div>
                 <div class="service-content">
-                    <h3>Land Surveying Services</h3>
-                    <p>We offer a comprehensive range of land surveying services tailored to meet diverse client needs, ensuring accuracy and reliability in every project.</p>
+                    <h3>Comprehensive Land Surveying Services</h3>
+                    <p>Our land surveying services are designed to meet a wide range of needs, ensuring precision and compliance with regulations.</p>
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Boundary Surveys</span>
+                            <span>Site Inspection and Analysis</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Topographic Mapping</span>
+                            <span>Land Use Planning and Development</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Subdivision Planning</span>
+                            <span>Zoning and Permits Assistance</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Construction Staking</span>
+                            <span>Boundaries Verification and Recovery</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>ALTA/NSPS Land Title Surveys</span>
+                            <span>Topographic Surveys</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>GIS Data Collection</span>
+                            <span>Construction Layout and Staking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cadastral Surveys</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detailed-item">
+                <div class="service-icon">
+                    <i class="fas fa-search-location"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Detailed Services Breakdown</h3>
+                    <p>A closer look at what our land surveying services include:</p>
+                    <div class="service-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Site Inspection:** Thorough examination of the land to understand its current state and potential.</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Land Use Planning:** Developing plans for the most efficient and effective use of the land.</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Zoning & Permits:** Assisting with the complex process of obtaining necessary zoning approvals and permits.</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Boundaries Verification & Recovery:** Confirming and re-establishing property boundaries to resolve disputes or for development purposes.</span>
                         </div>
                     </div>
                 </div>
@@ -253,9 +319,9 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Need Expert Land Surveying?</h2>
-                <p>Contact us today to discuss your land surveying requirements and get a professional assessment.</p>
-                <a href="contact.php" class="cta-button">Contact Us</a>
+                <h2>Need Reliable Land Surveying?</h2>
+                <p>Contact Proma Africa today for accurate and professional land surveying services tailored to your specific requirements. Let us help you ensure the integrity and clarity of your land information.</p>
+                <a href="contact.php" class="cta-button">Get a Quote</a>
             </div>
         </div>
     </section>
@@ -264,7 +330,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="1.jpg" alt="Proma Africa Logo">
+                    <img src="1.png" alt="Proma Africa Logo">
                     <p>Your trusted partner in property valuation and real estate services.</p>
                 </div>
                 <div class="footer-links">
@@ -280,14 +346,15 @@
                 <div class="footer-newsletter">
                     <h4>Newsletter</h4>
                     <p>Subscribe to our newsletter for the latest updates</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email Address">
+                    <form class="newsletter-form" action="subscribe.php" method="POST">
+                        <input type="email" name="email" placeholder="Your Email Address" required>
                         <button type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
+                <p>&copy;
+                    <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -302,11 +369,12 @@
         document.addEventListener('click', function(event) {
             const menuLinks = document.getElementById('menuLinks');
             const menuIcon = document.getElementById('menuIcon');
-            
+
             if (!menuIcon.contains(event.target) && !menuLinks.contains(event.target)) {
                 menuLinks.classList.remove('show');
             }
         });
     </script>
 </body>
+
 </html>

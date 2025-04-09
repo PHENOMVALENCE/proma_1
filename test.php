@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="1.jpg" alt="Proma Africa Logo">
+                <img src="1.png" alt="Proma Africa Logo">
             </div>
             <div class="menu-toggle" onclick="toggleMenu()">☰</div>
             <ul class="nav-links">

@@ -55,12 +55,13 @@
             <div class="about-content">
                 <div class="about-text">
                     <h3>Company Overview</h3>
-                    <p>Proma Africa is a multifaceted company specializing in property valuation, land administration, real estate services, resettlement consultancy, socio-economic baseline survey and comprehensive consultancy services. With a commitment to excellence and a client-centric approach, we aim to deliver tailored solutions that meet the diverse needs of our clients across various sectors.</p>
-                    
-                    <p>Proma Africa Company Limited is a one-stop boutique valuation company to Individuals, Corporations & Governments operating, covering all movable and immovable assets.</p>
-                    
-                    <p>Proma Africa Company Limited was incorporated in April 2024 by a team of experienced experts in property valuation, Resettlement, Environmental Social Governance (ESG), Social Economic Surveys Socioeconomic Sciences (SIS), earth observation (EO) as well as, Real Estate and Market Analysis with more than 5 years of experience. The specific solutions offered include but not limited to those harnessing 'Value' as an important variable in sustainable investments. The founders and experts in the company believe that a 'value' is a decision support tool in any investment appraisal. For service providers, the value can provide a synoptic view of the asset being appraised.</p>
-                </div>
+                    <p>Proma Africa is a multifaceted company specializing in property valuation, land administration, real estate services, resettlement consultancy, Environmental Social Governance (ESG), Social Economic Surveys Geoinformation Sciences (GIS), socio-economic baseline survey and comprehensive consultancy services, with a commitment to excellence and a client-centric approach. We aim to deliver solutions that meet the diverse needs of our clients across various sectors.</p>
+
+<p>Our clients include corporations (banks, insurers/brokers and big business), private individuals, partnerships, all other businesses, farming concerns, heritage, government and institutional organizations amongst others. We also offer additional advisory, asset register and risk survey report (property) services.</p>
+
+<p>To support the efficient management of your property portfolio, all our work is thoroughly researched and well managed. We offer a wide range of specialist valuation and consultancy services across all property sectors.</p>
+<P>Our clients are at the heart of everything we do, and we trust that this website effectively outlines the comprehensive 'one-stop' on services we provide.</P>
+</div>
             </div>
         </div>
     </section>
@@ -78,44 +79,39 @@
     </section>
 
     <!-- Services Section -->
-<section id="services" class="services">
+    <section id="services" class="services">
     <div class="container">
         <h2>Our Services</h2>
         <div class="services-grid">
             <div class="service-card">
-                <i class="fas fa-building"></i>
+                <i class="fas fa-balance-scale"></i>
+                <h3>Valuation Advisory Services</h3>
+                <p>Professional estimation of asset monetary worth for personal, private institutions and government use - including machinery, equipment, land, brand valuation, intellectual property, technology, and all types of properties.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-map-marked-alt"></i>
                 <h3>Land Surveying</h3>
-                <p>Precise measurement and mapping services for property boundaries and topography.</p>
+                <p>Comprehensive land measurement services including site inspection, land use planning, zoning & permits assistance, boundaries verification and recovery for all sectors.</p>
             </div>
             <div class="service-card">
-                <i class="fas fa-map-marked-alt"></i>
-                <h3>Property Financing</h3>
-                <p>Strategic financial solutions and guidance for property purchases and investments.</p>
+                <i class="fas fa-file-contract"></i>
+                <h3>Land Administration</h3>
+                <p>Expert management of land ownership information including Certificate of Right of Occupancy facilitation and title deed transfer services.</p>
             </div>
             <div class="service-card">
-                <i class="fas fa-map-marked-alt"></i>
-                <h3>Plots, Farms & Houses</h3>
-                <p>Diverse portfolio of residential and agricultural properties for sale and development.</p>
+                <i class="fas fa-tasks"></i>
+                <h3>Asset Management</h3>
+                <p>Full lifecycle management of organizational assets featuring barcode/QR tracking, asset verification, tracking, and database development services.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Property Management</h3>
+                <p>Professional building management to maximize returns including client acquisition, vendor/tenant lease management, and maintenance services.</p>
             </div>
             <div class="service-card">
                 <i class="fas fa-home"></i>
-                <h3>Property Management</h3>
-                <p>Comprehensive maintenance and administration services for property owners.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-people-arrows"></i>
-                <h3>Asset Management</h3>
-                <p>Strategic oversight and optimization of property assets to maximize returns.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-chart-line"></i>
-                <h3>Property Profiling</h3>
-                <p>Detailed analysis and reporting on property characteristics and market position.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-handshake"></i>
-                <h3>Land Administration Services</h3>
-                <p>Expert management of land records, titles, and regulatory compliance.</p>
+                <h3>Plots, Farms & Houses</h3>
+                <p>Transparent and professional services for buying and selling residential/commercial plots, buildings, agricultural land, and investment properties.</p>
             </div>
         </div>
     </div>
@@ -223,13 +219,14 @@
                     </ul>
                 </div>
                 <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to our newsletter for the latest updates</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email Address">
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
+    <h4>Newsletter</h4>
+    <p>Subscribe to our newsletter for the latest updates</p>
+    <form class="newsletter-form" action="subscribe.php" method="POST">
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
             </div>
             <div class="footer-bottom">
                 <p>&copy; <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>

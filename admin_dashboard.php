@@ -657,7 +657,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="1.jpg" alt="Proma Africa Logo">
+                    <img src="1.png" alt="Proma Africa Logo">
                     <p>Your trusted partner in property valuation and real estate services.</p>
                 </div>
                 <div class="footer-links">

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property Financing - Proma Africa</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Services Page Specific Styles (same as your provided code) */
-
         /* Page Header Styles */
         .page-header {
             height: 300px;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b8.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b4.jpg');
+            /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             display: flex;
@@ -125,6 +125,7 @@
         .cta-section {
             padding: 80px 0;
             background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg');
+            /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             color: white;
@@ -145,6 +146,37 @@
             font-size: 1.2rem;
             margin-bottom: 30px;
         }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #f6ae01;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #e09d00;
+        }
+
+        /* Footer Styles (you might have these in styles.css) */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Add more footer styles as needed */
 
         /* Responsive Styles */
         @media screen and (max-width: 768px) {
@@ -171,6 +203,7 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
@@ -200,49 +233,82 @@
 
     <section class="page-header">
         <div class="header-content">
-            <h1>Property Financing</h1>
-            <p>Your pathway to successful property investment.</p>
+            <h1>Valuation Advisory Services</h1>
+            <p>Expert valuation and advisory for informed property decisions.</p>
         </div>
     </section>
 
     <section class="services-detailed">
         <div class="container">
             <div class="services-intro">
-                <h2>Strategic Property Financing Solutions</h2>
-                <p>We provide comprehensive financial guidance and solutions to facilitate property investments and acquisitions. Our team works closely with clients to identify optimal financing structures, secure favorable terms, and navigate complex financial processes to ensure successful property transactions.</p>
+                <h2>Accurate and Reliable Valuation Advisory Services</h2>
+                <p>Proma Africa provides comprehensive valuation advisory services, offering precise estimations of the monetary worth of assets. Our services cater to personal, private institutions, and government needs, delivering valuations that are crucial for various purposes, including financial reporting, investment analysis, and property transactions.</p>
+                <p>Our team of experienced valuers employs industry-leading methodologies and in-depth market analysis to ensure that our clients receive valuations that are both accurate and reliable, enabling them to make sound financial decisions.</p>
             </div>
-            
+
             <div class="service-detailed-item">
                 <div class="service-icon">
-                    <i class="fas fa-map-marked-alt"></i>
+                    <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="service-content">
-                    <h3>Property Financing Services</h3>
-                    <p>Unlock your property investment potential with our tailored financial solutions.</p>
+                    <h3>Our Valuation Advisory Expertise</h3>
+                    <p>We offer a broad spectrum of valuation services, tailored to meet the specific requirements of our clients.</p>
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Investment Analysis</span>
+                            <span>Property Valuation</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Financing Strategy</span>
+                            <span>Business Valuation</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Loan Assessment</span>
+                            <span>Machinery and Equipment Valuation</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Financial Planning</span>
+                            <span>Brand Valuation</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Mortgage Advisory</span>
+                            <span>Intellectual Property Valuation</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Refinancing Options</span>
+                            <span>Technology Valuation</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Financial Instrument Valuation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detailed-item">
+                <div class="service-icon">
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Detailed Valuation Services</h3>
+                    <p>A closer look at the specific assets we provide valuation services for:</p>
+                    <div class="service-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Machinery and Equipment:** Accurate valuation for industrial equipment, ensuring proper asset accounting and insurance coverage.</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Brand Valuation:** Assessing the value of brand assets for mergers, acquisitions, or strategic planning.</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Intellectual Property:** Valuation of patents, trademarks, and copyrights for licensing, sales, or litigation.</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>**Technology Valuation:** Evaluating the worth of technological assets, including software, algorithms, and databases.</span>
                         </div>
                     </div>
                 </div>
@@ -253,9 +319,9 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Explore Your Financing Options</h2>
-                <p>Contact us to discuss your property financing needs and find the best solutions for your investment goals.</p>
-                <a href="contact.php" class="cta-button">Contact Us</a>
+                <h2>Need Expert Valuation Advice?</h2>
+                <p>Contact Proma Africa today for professional and reliable valuation advisory services. Let us help you understand the true value of your assets and make informed financial decisions.</p>
+                <a href="contact.php" class="cta-button">Request a Valuation</a>
             </div>
         </div>
     </section>
@@ -264,7 +330,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="1.jpg" alt="Proma Africa Logo">
+                    <img src="1.png" alt="Proma Africa Logo">
                     <p>Your trusted partner in property valuation and real estate services.</p>
                 </div>
                 <div class="footer-links">
@@ -280,14 +346,15 @@
                 <div class="footer-newsletter">
                     <h4>Newsletter</h4>
                     <p>Subscribe to our newsletter for the latest updates</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your Email Address">
+                    <form class="newsletter-form" action="subscribe.php" method="POST">
+                        <input type="email" name="email" placeholder="Your Email Address" required>
                         <button type="submit">Subscribe</button>
                     </form>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
+                <p>&copy;
+                    <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -302,11 +369,12 @@
         document.addEventListener('click', function(event) {
             const menuLinks = document.getElementById('menuLinks');
             const menuIcon = document.getElementById('menuIcon');
-            
+
             if (!menuIcon.contains(event.target) && !menuLinks.contains(event.target)) {
                 menuLinks.classList.remove('show');
             }
         });
     </script>
 </body>
+
 </html>
