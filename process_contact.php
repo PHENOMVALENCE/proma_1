@@ -4,32 +4,80 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["name"]));
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $phone = strip_tags(trim($_POST["phone"]));
-    $subject = strip_tags(trim($_POST["subject"]));
-    $message = strip_tags(trim($_POST["message"]));
+    
+    // Handle service checkboxes
+    $services = isset($_POST["service"]) ? $_POST["service"] : [];
+    $selectedServices = [];
+    
+    if (!empty($services)) {
+        foreach ($services as $service) {
+            $selectedServices[] = strip_tags(trim($service));
+        }
+    }
+    
+    // Get message if it exists in the form
+    $message = isset($_POST["message"]) ? strip_tags(trim($_POST["message"])) : "";
 
-    // Validate form data (optional but recommended)
-    if (empty($name) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        // Handle validation errors (e.g., redirect back to the form with an error message)
+    // Validate form data
+    if (empty($name) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Handle validation errors
         http_response_code(400);
         echo "Please fill out all required fields and provide a valid email address.";
         exit;
     }
 
-    // Set the recipient email address (your webmail address)
+    // Set the recipient email address
     $to = "info@promaafrica.com"; // Replace with your actual webmail address
 
     // Set the email subject
-    $email_subject = "New Contact Form Submission: $subject";
+    $email_subject = "New Quote Request from Website";
 
     // Build the email message
-    $email_body = "You have received a new message from your website contact form.\n\n";
+    $email_body = "You have received a new quote request from your website contact form.\n\n";
     $email_body .= "Name: $name\n";
     $email_body .= "Email: $email\n";
+    
     if (!empty($phone)) {
         $email_body .= "Phone: $phone\n";
     }
-    $email_body .= "Subject: $subject\n";
-    $email_body .= "Message:\n$message\n";
+    
+    // Add selected services to email
+    if (!empty($selectedServices)) {
+        $email_body .= "Services Requested:\n";
+        foreach ($selectedServices as $service) {
+            $serviceName = "";
+            switch ($service) {
+                case "valuation":
+                    $serviceName = "Valuation Advisory Services";
+                    break;
+                case "surveying":
+                    $serviceName = "Land Surveying";
+                    break;
+                case "administration":
+                    $serviceName = "Land Administration";
+                    break;
+                case "asset":
+                    $serviceName = "Asset Management";
+                    break;
+                case "property":
+                    $serviceName = "Property Management";
+                    break;
+                case "realestate":
+                    $serviceName = "Plots/Farms & Houses";
+                    break;
+                case "other":
+                    $serviceName = "Other";
+                    break;
+                default:
+                    $serviceName = $service;
+            }
+            $email_body .= "- $serviceName\n";
+        }
+    }
+    
+    if (!empty($message)) {
+        $email_body .= "\nAdditional Message:\n$message\n";
+    }
 
     // Set the email headers
     $headers = "From: $email\n";
@@ -39,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mail($to, $email_subject, $email_body, $headers)) {
         // Success - Redirect to a thank you page or display a success message
         http_response_code(200);
-        echo "Thank you for your message. We will be in touch soon!";
+        echo "Thank you for your quote request! We will contact you shortly.";
         // You can also redirect: header("Location: thank_you.html");
     } else {
         // Error - Display an error message

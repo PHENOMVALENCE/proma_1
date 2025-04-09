@@ -117,60 +117,60 @@
     </div>
 </section>
     <!-- News & Blogs Section -->
-    <section id="news" class="news">
-        <div class="container">
-            <h2>News & Insights</h2>
-            <div class="news-grid">
-                <div class="news-card">
-                    <div class="news-img">
-                        <i class="fas fa-chart-area"></i>
-                    </div>
-                    <div class="news-content">
-                        <h3>The Impact of ESG on African Real Estate Valuations</h3>
-                        <p class="date">April 15, 2025</p>
-                        <p>Environmental, Social, and Governance (ESG) criteria are increasingly influencing property valuations across Africa. This shift represents a fundamental change in how assets are valued, with sustainable properties commanding premium prices.</p>
-                        <a href="#" class="read-more">Read More</a>
-                    </div>
+<section id="news" class="news">
+    <div class="container">
+        <h2>News & Insights</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <div class="news-img">
+                    <i class="fas fa-chart-area"></i>
                 </div>
-
-                <div class="news-card">
-                    <div class="news-img">
-                        <i class="fas fa-satellite"></i>
-                    </div>
-                    <div class="news-content">
-                        <h3>Leveraging Earth Observation Data for Land Administration</h3>
-                        <p class="date">March 28, 2025</p>
-                        <p>Modern earth observation (EO) technologies are revolutionizing land administration across Africa. Satellite imagery and remote sensing provide accurate, timely data for property boundaries, land use changes, and environmental monitoring.</p>
-                        <a href="#" class="read-more">Read More</a>
-                    </div>
+                <div class="news-content">
+                    <h3>The Impact of ESG on African Real Estate Valuations</h3>
+                    <p class="date">April 5, 2025</p>
+                    <p>Environmental, Social, and Governance (ESG) criteria are increasingly influencing property valuations across Africa. This shift represents a fundamental change in how assets are valued, with sustainable properties commanding premium prices.</p>
+                    <a href="news.php" class="read-more">Read More</a>
                 </div>
+            </div>
 
-                <div class="news-card">
-                    <div class="news-img">
-                        <i class="fas fa-city"></i>
-                    </div>
-                    <div class="news-content">
-                        <h3>Urban Growth and Property Value Trends in East Africa</h3>
-                        <p class="date">March 10, 2025</p>
-                        <p>Rapid urbanization across East African cities is creating both challenges and opportunities in the real estate market. Our analysis reveals key growth corridors and emerging investment hotspots in metropolitan areas.</p>
-                        <a href="#" class="read-more">Read More</a>
-                    </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <i class="fas fa-satellite"></i>
                 </div>
+                <div class="news-content">
+                    <h3>Leveraging Earth Observation Data for Land Administration</h3>
+                    <p class="date">March 28, 2025</p>
+                    <p>Modern earth observation (EO) technologies are revolutionizing land administration across Africa. Satellite imagery and remote sensing provide accurate, timely data for property boundaries, land use changes, and environmental monitoring.</p>
+                    <a href="news.php" class="read-more">Read More</a>
+                </div>
+            </div>
 
-                <div class="news-card">
-                    <div class="news-img">
-                        <i class="fas fa-landmark"></i>
-                    </div>
-                    <div class="news-content">
-                        <h3>Innovative Approaches to Community Resettlement Projects</h3>
-                        <p class="date">February 22, 2025</p>
-                        <p>Sustainable resettlement requires balancing economic, social, and cultural factors. This article explores best practices in community engagement, fair compensation, and long-term livelihood restoration in large infrastructure projects.</p>
-                        <a href="#" class="read-more">Read More</a>
-                    </div>
+            <div class="news-card">
+                <div class="news-img">
+                    <i class="fas fa-city"></i>
+                </div>
+                <div class="news-content">
+                    <h3>Urban Growth and Property Value Trends in East Africa</h3>
+                    <p class="date">March 10, 2025</p>
+                    <p>Rapid urbanization across East African cities is creating both challenges and opportunities in the real estate market. Our analysis reveals key growth corridors and emerging investment hotspots in metropolitan areas.</p>
+                    <a href="news.php" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="news-card">
+                <div class="news-img">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <div class="news-content">
+                    <h3>Innovative Approaches to Community Resettlement Projects</h3>
+                    <p class="date">February 22, 2025</p>
+                    <p>Sustainable resettlement requires balancing economic, social, and cultural factors. This article explores best practices in community engagement, fair compensation, and long-term livelihood restoration in large infrastructure projects.</p>
+                    <a href="news.php" class="read-more">Read More</a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Contact Section (Simplified) -->
     <section id="contact" class="contact-simplified">
@@ -179,11 +179,12 @@
             <div class="contact-info-simplified">
                 <div class="info-item">
                     <i class="fas fa-envelope"></i>
-                    <p>info@promaafrica.com</p>
+                    <p><a href="mailto:info@promaafrica.com">info@promaafrica.com</a></p>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-phone"></i>
-                    <p>+255 755 989 743</p>
+                    <p><a href="tel:+254123456789">+255 756 069 451</a></p>
+                            <p><a href="tel:+254987654321">+255 755 989 743</a></p>
                 </div>
                 <div class="info-item">
                     <i class="fas fa-map-marker-alt"></i>
@@ -191,7 +192,7 @@
                 </div>
                 <div class="social-links">
                     
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/proma-africa-09128b35a/"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://www.instagram.com/promaafrica?igsh=MXh0YjlnZng1M2hvcw%3D%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>

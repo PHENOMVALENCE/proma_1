@@ -73,12 +73,19 @@
             border-radius: 10px;
             padding: 30px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-form-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         }
 
         .contact-form-container h3 {
             color: #333;
             font-size: 1.8rem;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            text-align: center;
         }
 
         .contact-form {
@@ -98,19 +105,31 @@
         }
 
         .form-group input,
+        .form-group select,
         .form-group textarea {
             width: 100%;
             padding: 12px 15px;
             border: 1px solid #ddd;
             border-radius: 5px;
             font-size: 1rem;
-            transition: border-color 0.3s;
+            transition: border-color 0.3s, box-shadow 0.3s;
+            font-family: inherit;
         }
 
         .form-group input:focus,
+        .form-group select:focus,
         .form-group textarea:focus {
             border-color: #f6ae01;
             outline: none;
+            box-shadow: 0 0 5px rgba(246, 174, 1, 0.3);
+        }
+
+        .form-group select {
+            appearance: none;
+            background-image: url('data:image/svg+xml;utf8,<svg fill="%23555" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 20px;
         }
 
         .form-group textarea {
@@ -122,17 +141,26 @@
             background-color: #f6ae01;
             color: white;
             border: none;
-            padding: 12px 25px;
+            padding: 14px 28px;
             font-size: 1rem;
             font-weight: 600;
             border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s;
-            align-self: flex-start;
+            transition: background-color 0.3s, transform 0.2s;
+            align-self: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            width: 100%;
         }
 
         .submit-btn:hover {
             background-color: #e29f01;
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
         }
 
         .contact-info {
@@ -226,6 +254,7 @@
         .hours-list {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
 
         .hours-list li {
@@ -239,10 +268,86 @@
             font-weight: 600;
         }
 
+        /* Form Validation Styles */
+        .form-group input:invalid:focus,
+        .form-group select:invalid:focus,
+        .form-group textarea:invalid:focus {
+            border-color: #ff6b6b;
+            box-shadow: 0 0 5px rgba(255, 107, 107, 0.3);
+        }
+
+        /* Service Checkbox Styles */
+        .service-options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 5px;
+        }
+
+        .service-option {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .service-option input[type="checkbox"] {
+            width: auto;
+            margin-top: 3px;
+            cursor: pointer;
+        }
+
+        .service-option label {
+            margin: 0;
+            cursor: pointer;
+            font-weight: normal;
+        }
+
+        .service-label {
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* Enhance checkbox appearance */
+        .service-option input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid #ddd;
+            border-radius: 3px;
+            outline: none;
+            transition: all 0.3s;
+            position: relative;
+            background-color: white;
+        }
+
+        .service-option input[type="checkbox"]:checked {
+            background-color: #f6ae01;
+            border-color: #f6ae01;
+        }
+
+        .service-option input[type="checkbox"]:checked::after {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            top: 1px;
+            left: 5px;
+            transform: rotate(45deg);
+        }
+
+        .service-option input[type="checkbox"]:hover {
+            border-color: #f6ae01;
+        }
+
         /* Responsive Styles */
         @media screen and (max-width: 768px) {
             .page-header {
                 height: 200px;
+                margin-top: 80px;
             }
             
             .page-header h1 {
@@ -259,6 +364,18 @@
             
             .map-section {
                 height: 350px;
+            }
+
+            .contact-form-container h3 {
+                font-size: 1.5rem;
+            }
+
+            .submit-btn {
+                padding: 12px 20px;
+            }
+
+            .service-option {
+                padding-right: 10px;
             }
         }
     </style>
@@ -304,7 +421,7 @@
         <div class="container">
             <div class="contact-intro">
                 <h2>Get In Touch</h2>
-                <p>We are not office traditionalists, our business is everywhere and so are we.<br> You can find us remotely between Dar es Salaam and Zanzibar, Tanzania..</p>
+                <p>We are not office traditionalists, our business is everywhere and so are we.<br> You can find us remotely between Dar es Salaam and Zanzibar, Tanzania.</p>
             </div>
             
             <div class="contact-content">
@@ -313,23 +430,58 @@
                     <form class="contact-form" action="process_contact.php" method="post">
                         <div class="form-group">
                             <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
                         </div>
+                        
+                        <div class="form-group">
+                            <label class="service-label">Which service are you interested in? (Check all that apply)</label>
+                            <div class="service-options">
+                                <div class="service-option">
+                                    <input type="checkbox" id="valuation" name="service[]" value="valuation">
+                                    <label for="valuation">Valuation Advisory Services</label>
+                                </div>
+                                <div class="service-option">
+                                    <input type="checkbox" id="surveying" name="service[]" value="surveying">
+                                    <label for="surveying">Land Surveying</label>
+                                </div>
+                                <div class="service-option">
+                                    <input type="checkbox" id="administration" name="service[]" value="administration">
+                                    <label for="administration">Land Administration</label>
+                                </div>
+                                <div class="service-option">
+                                    <input type="checkbox" id="asset" name="service[]" value="asset">
+                                    <label for="asset">Asset Management</label>
+                                </div>
+                                <div class="service-option">
+                                    <input type="checkbox" id="property" name="service[]" value="property">
+                                    <label for="property">Property Management</label>
+                                </div>
+                                <div class="service-option">
+                                    <input type="checkbox" id="realestate" name="service[]" value="realestate">
+                                    <label for="realestate">Plots/Farms & Houses</label>
+                                </div>
+                                <div class="service-option">
+                                    <input type="checkbox" id="other" name="service[]" value="other">
+                                    <label for="other">Other (Please specify in message)</label>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="form-group">
                             <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
+                            <input type="text" id="subject" name="subject" placeholder="Enter the subject of your inquiry" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Your Message</label>
-                            <textarea id="message" name="message" required></textarea>
+                            <textarea id="message" name="message" placeholder="Please describe how we can help you..." required></textarea>
                         </div>
                         <button type="submit" class="submit-btn">Send Message</button>
                     </form>
@@ -352,8 +504,8 @@
                         </div>
                         <div class="info-details">
                             <h4>Call Us</h4>
-                            <p><a href="tel:+254123456789">+255 756 069 451</a></p>
-                            <p><a href="tel:+254987654321">+255 755 989 743</a></p>
+                            <p><a href="tel:+255756069451">+255 756 069 451</a></p>
+                            <p><a href="tel:+255755989743">+255 755 989 743</a></p>
                         </div>
                     </div>
                     
@@ -364,7 +516,6 @@
                         <div class="info-details">
                             <h4>Email Us</h4>
                             <p><a href="mailto:info@promaafrica.com">info@promaafrica.com</a></p>
-                           
                         </div>
                     </div>
                     
@@ -391,15 +542,12 @@
         <div class="map-container">
             <!-- Replace the src with your actual Google Maps embed URL -->
             <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.158879099268!2d39.253849399999996!3d-6.792354150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4c66e3a9b07b%3A0x28d6e2ab157d388a!2sDar%20es%20Salaam%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1712000000000!5m2!1sen!2sus" 
-  width="600" 
-  height="450" 
-  style="border:0;" 
-  allowfullscreen="" 
-  loading="lazy" 
-  referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-</div>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.158879099268!2d39.253849399999996!3d-6.792354150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4c66e3a9b07b%3A0x28d6e2ab157d388a!2sDar%20es%20Salaam%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1712000000000!5m2!1sen!2sus" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -421,13 +569,13 @@
                     </ul>
                 </div>
                 <div class="footer-newsletter">
-    <h4>Newsletter</h4>
-    <p>Subscribe to our newsletter for the latest updates</p>
-    <form class="newsletter-form" action="subscribe.php" method="POST">
-        <input type="email" name="email" placeholder="Your Email Address" required>
-        <button type="submit">Subscribe</button>
-    </form>
-</div>
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for the latest updates</p>
+                    <form class="newsletter-form" action="subscribe.php" method="POST">
+                        <input type="email" name="email" placeholder="Your Email Address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
@@ -449,6 +597,22 @@
             if (!menuIcon.contains(event.target) && !menuLinks.contains(event.target)) {
                 menuLinks.classList.remove('show');
             }
+        });
+
+        // Form validation and enhancement
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('.contact-form');
+            
+            // Add form submission handling
+            form.addEventListener('submit', function(event) {
+                // You can add custom validation here if needed
+                
+                // For demonstration purposes, this just shows how you might handle form submission
+                // Uncomment the following line to prevent actual form submission for testing
+                // event.preventDefault();
+                
+                // You could add form submission success feedback here
+            });
         });
     </script>
 </body>
