@@ -484,7 +484,7 @@ $recentArticles = mysqli_query($conn, $sql);
 
         <div class="sidebar">
             <div class="sidebar-header">
-                <img src="2.png" alt="Proma Africa Logo">
+                <img src="1.png" alt="Proma Africa Logo">
                 <h3>Admin Panel</h3>
             </div>
             <div class="sidebar-menu">

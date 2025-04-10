@@ -124,7 +124,7 @@
         /* CTA Section Styles */
         .cta-section {
             padding: 80px 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg');
             /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
@@ -209,7 +209,7 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
@@ -296,19 +296,19 @@
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Machinery and Equipment:** Accurate valuation for industrial equipment, ensuring proper asset accounting and insurance coverage.</span>
+                            <span>Machinery and Equipment: Accurate valuation for industrial equipment, ensuring proper asset accounting and insurance coverage.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Brand Valuation:** Assessing the value of brand assets for mergers, acquisitions, or strategic planning.</span>
+                            <span>Brand Valuation: Assessing the value of brand assets for mergers, acquisitions, or strategic planning.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Intellectual Property:** Valuation of patents, trademarks, and copyrights for licensing, sales, or litigation.</span>
+                            <span>Intellectual Property: Valuation of patents, trademarks, and copyrights for licensing, sales, or litigation.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Technology Valuation:** Evaluating the worth of technological assets, including software, algorithms, and databases.</span>
+                            <span>Technology Valuation: Evaluating the worth of technological assets, including software, algorithms, and databases.</span>
                         </div>
                     </div>
                 </div>

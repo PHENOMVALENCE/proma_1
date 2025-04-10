@@ -124,7 +124,7 @@
         /* CTA Section Styles */
         .cta-section {
             padding: 80px 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg');
             /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
@@ -209,7 +209,7 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
@@ -296,19 +296,19 @@
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Site Inspection:** Thorough examination of the land to understand its current state and potential.</span>
+                            <span>Site Inspection: Thorough examination of the land to understand its current state and potential.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Land Use Planning:** Developing plans for the most efficient and effective use of the land.</span>
+                            <span>Land Use Planning: Developing plans for the most efficient and effective use of the land.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Zoning & Permits:** Assisting with the complex process of obtaining necessary zoning approvals and permits.</span>
+                            <span>Zoning & Permits: Assisting with the complex process of obtaining necessary zoning approvals and permits.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Boundaries Verification & Recovery:** Confirming and re-establishing property boundaries to resolve disputes or for development purposes.</span>
+                            <span>Boundaries Verification & Recovery: Confirming and re-establishing property boundaries to resolve disputes or for development purposes.</span>
                         </div>
                     </div>
                 </div>

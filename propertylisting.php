@@ -124,7 +124,7 @@
         /* CTA Section Styles */
         .cta-section {
             padding: 80px 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg');
             /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
@@ -209,7 +209,7 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
@@ -296,19 +296,19 @@
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Residential & Commercial Plots:** Land suitable for building homes, apartments, offices, or retail spaces.</span>
+                            <span>Residential & Commercial Plots: Land suitable for building homes, apartments, offices, or retail spaces.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Residential & Commercial Buildings:** Houses, apartments, office buildings, shopping centers, and other structures.</span>
+                            <span>Residential & Commercial Buildings: Houses, apartments, office buildings, shopping centers, and other structures.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Agricultural Use:** Farms, ranches, and land used for growing crops or raising livestock.</span>
+                            <span>Agricultural Use: Farms, ranches, and land used for growing crops or raising livestock.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>**Investment Purposes:** Properties with high potential for appreciation or rental income.</span>
+                            <span>Investment Purposes: Properties with high potential for appreciation or rental income.</span>
                         </div>
                     </div>
                 </div>

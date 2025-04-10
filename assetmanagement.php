@@ -122,7 +122,7 @@
         /* CTA Section Styles */
         .cta-section {
             padding: 80px 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg'); /* Replace with an appropriate image */
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg'); /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             color: white;
@@ -203,7 +203,7 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>

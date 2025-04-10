@@ -13,7 +13,7 @@
     <div class="container">
         <div class="nav-left">
             <div class="logo">
-                <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
+                <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
             </div>
             <div class="site-title">
                 <h1>Proma Africa</h1>
@@ -38,14 +38,13 @@
     <!-- Hero Section with Video -->
     <section class="hero">
         <video autoplay muted loop id="hero-video">
-            <source src="vid.mp4" type="video/mp4">
+            <source src="vid1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <div class="hero-content">
-            <h1>Revolutionizing Real Estate Through Innovative Solutions</h1>
-            <p>Your trusted partner in property valuation, land administration, and real estate services</p>
-            <a href="#contact" class="cta-button">Get Started</a>
-        </div>
+        <div class="hero-content" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px;">
+  <p style="margin-bottom: 0; font-size: 3rem; white-space: nowrap;">Modern Company Modern Solutions</p>
+  <a href="#contact" class="cta-button">Get Started</a>
+</div>
     </section>
 
     <!-- About Section -->
@@ -203,7 +202,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="2.png" alt="Proma Africa Logo">
+                    <img src="1.png" alt="Proma Africa Logo">
                     
                     <p>Your trusted partner in property valuation and real estate services.</p>
                     

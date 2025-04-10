@@ -26,7 +26,7 @@
     <section class="hero">
         <h1>A Pan African Technology Company <br> Sparking the Tech Revolution for a Borderless Africa</h1>
         <video autoplay muted loop>
-            <source src="vid.mp4" type="video/mp4">
+            <source src="vid1.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </section>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Management - Proma Africa</title>
+    <title>Land Administration Services - Proma Africa</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Page Header Styles */
@@ -77,7 +77,7 @@
 
         .service-icon {
             flex: 0 0 150px;
-            background-color: #f6ae01;
+            background-color: #f6ae01; /* A different color to distinguish */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -159,7 +159,7 @@
         }
 
         .cta-button:hover {
-            background-color: #e09d00;
+            background-color: #f6ae01;
         }
 
         /* Footer Styles (you might have these in styles.css) */
@@ -175,8 +175,6 @@
             margin: 0 auto;
             padding: 0 20px;
         }
-
-        /* Add more footer styles as needed */
 
         /* Responsive Styles */
         @media screen and (max-width: 768px) {
@@ -233,58 +231,58 @@
 
     <section class="page-header">
         <div class="header-content">
-            <h1>Property Management</h1>
-            <p>Maximize your property's potential with our expert management services.</p>
+            <h1>Land Administration Services</h1>
+            <p>Secure your land rights and manage your land assets effectively with our expert administration services.</p>
         </div>
     </section>
 
     <section class="services-detailed">
         <div class="container">
             <div class="services-intro">
-                <h2>Comprehensive Property Management Solutions</h2>
+                <h2>Expert Land Administration Services in Tanzania</h2>
                 <p>
-                    Proma Africa's property management services are designed to optimize the performance and profitability of your real estate assets. We offer comprehensive solutions tailored to individual owners, private institutions, and government entities, ensuring that your property is managed efficiently and effectively. Our goal is to maximize your returns while minimizing your risks and operational burdens.
+                    Proma Africa offers comprehensive land administration services in Tanzania, designed to provide clarity, security, and efficient management of land ownership and usage. We understand the complexities of land regulations and procedures, and our experienced team is dedicated to assisting individuals, private institutions, and government entities in navigating these processes effectively.
                 </p>
                 <p>
-                    We handle all aspects of property management, from tenant relations and lease administration to maintenance, financial reporting, and compliance with regulations. Our proactive approach and attention to detail ensure that your property is well-maintained, tenants are satisfied, and your investment is protected.
+                    Our land administration services involve the systematic recording and dissemination of crucial information regarding land ownership, value, and utilization. Whether you require assistance with title registration, facilitating your Certificate of Right of Occupancy, or managing title deed transfers, Proma Africa is your reliable partner.
                 </p>
             </div>
 
             <div class="service-detailed-item">
                 <div class="service-icon">
-                    <i class="fas fa-building-shield"></i>
+                    <i class="fas fa-map-marked-alt"></i>
                 </div>
                 <div class="service-content">
-                    <h3>Our Property Management Services</h3>
-                    <p>We provide a full range of services to ensure the smooth operation and financial success of your property.</p>
+                    <h3>Our Land Administration Services Include:</h3>
+                    <p>We offer a range of services to streamline your land administration needs.</p>
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Tenant Screening and Acquisition</span>
+                            <span>Title Registration: Ensuring legal recognition of your land ownership.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Lease Administration and Enforcement</span>
+                            <span>Certificate of Right of Occupancy Facilitation: Assisting in acquiring and managing your CRO.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Rent Collection and Financial Reporting</span>
+                            <span>Title Deed Transfer: Managing the seamless and legal transfer of land ownership.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Property Maintenance and Repairs</span>
+                            <span>Land Use Planning Advice: Providing guidance on optimal land utilization.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Vendor Management</span>
+                            <span>Boundary Demarcation and Surveys: Ensuring accurate property boundaries.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Regular Property Inspections</span>
+                            <span>Property Information Management: Maintaining organized and accessible land records.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Legal and Regulatory Compliance</span>
+                            <span>Government Liaison: Facilitating communication and processes with relevant authorities.</span>
                         </div>
                     </div>
                 </div>
@@ -292,31 +290,31 @@
 
             <div class="service-detailed-item">
                 <div class="service-icon">
-                    <i class="fas fa-hand-holding-usd"></i>
+                    <i class="fas fa-file-alt"></i>
                 </div>
                 <div class="service-content">
-                    <h3>Key Benefits of Our Services</h3>
-                    <p>Discover how our property management services can benefit you:</p>
+                    <h3>Why Choose Proma Africa for Land Administration?</h3>
+                    <p>Benefit from our expertise and commitment to efficient land management.</p>
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Maximized Returns: We focus on optimizing rental income and controlling expenses to increase your profitability.</span>
+                            <span>Expert Knowledge: Our team possesses in-depth understanding of Tanzanian land laws and regulations.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Reduced Vacancy: Our effective marketing and tenant retention strategies minimize vacancy periods.</span>
+                            <span>Efficient Processes: We streamline procedures to save you time and resources.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Professional Tenant Relations: We ensure positive and respectful interactions with tenants, leading to higher satisfaction and retention.</span>
+                            <span>Accuracy and Compliance: We ensure all processes are accurate and adhere to legal standards.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Property Preservation: Regular maintenance and inspections protect your property's value and prevent costly repairs.</span>
+                            <span>Personalized Support: We tailor our services to meet your specific needs.</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Stress-Free Ownership: We handle all the day-to-day management tasks, giving you peace of mind and more time.</span>
+                            <span>Reduced Risk: Our meticulous approach minimizes potential legal and administrative issues.</span>
                         </div>
                     </div>
                 </div>
@@ -327,11 +325,11 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Optimize Your Property Investment</h2>
+                <h2>Need Assistance with Land Administration?</h2>
                 <p>
-                    Let Proma Africa take the hassle out of property ownership. Our dedicated team is ready to provide expert management services that protect your investment and enhance your returns. Contact us today to learn more about how we can help you achieve your property goals.
+                    Let Proma Africa guide you through the complexities of land administration in Tanzania. Our experienced team is ready to provide the support and expertise you need. Contact us today for a consultation.
                 </p>
-                <a href="contact.php" class="cta-button">Get Started</a>
+                <a href="contact.php" class="cta-button">Get in Touch</a>
             </div>
         </div>
     </section>
