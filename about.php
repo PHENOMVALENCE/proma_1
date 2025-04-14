@@ -12,11 +12,11 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
-                    <p>Property Valuation & Real Estate Services</p>
+                    <p></p>
                 </div>
             </div>
             <div class="hamburger-menu">
@@ -111,7 +111,7 @@
                         <img src="humph.jpg" alt="FRV. HUMPHREY PROTAS">
                     </div>
                     <div class="member-info">
-                        <h3>FRV. HUMPHREY PROTAS</h3>
+                        <h3>FRV. Humphrey Protas</h3>
                         <p class="position">Director</p>
                         <p>A key leader at Proma Africa, FRV. Humphrey Protas is instrumental in driving our strategic goals and ensuring our services meet the highest standards.</p>
                        <!--  <div class="social-links">
@@ -123,12 +123,12 @@
                 </div>
                 <div class="team-member">
                     <div class="member-image">
-                        <img src="baraka.jpg" alt="PRV. BARAKA MASAWE">
+                        <img src="baraka.jpg" alt="PRV. BARAKA Massawe">
                     </div>
                     <div class="member-info">
-                        <h3>PRV. BARAKA MASAWE</h3>
+                        <h3>PRV. Baraka Massawe</h3>
                         <p class="position">Director</p>
-                        <p>PRV. Baraka Masawe plays a crucial role in our leadership team, contributing significantly to our growth and success in the real estate sector.</p>
+                        <p>PRV. Baraka Massawe plays a crucial role in our leadership team, contributing significantly to our growth and success in the real estate sector.</p>
                         <!-- <div class="social-links">
                             <a href="#"><i class="fab fa-linkedin"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>

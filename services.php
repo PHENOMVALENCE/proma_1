@@ -176,11 +176,11 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
-                    <p>Property Valuation & Real Estate Services</p>
+                    <p></p>
                 </div>
             </div>
             <div class="hamburger-menu">
@@ -391,6 +391,35 @@
                 </div>
             </div>
         </div>
+        <div class="service-detailed-item">
+    <div class="service-icon">
+        <i class="fas fa-users"></i>
+    </div>
+    <div class="service-content">
+        <a href="resettlement.php">
+            <h3>Resettlement and Livelihood Restoration</h3>
+        </a>
+        <p>We provide comprehensive consultancy for the planning, implementation, and monitoring of resettlement and livelihood restoration programs, ensuring sustainable outcomes and compliance with best practices.</p>
+        <div class="service-features">
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Resettlement Action Plans (RAPs)</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Stakeholder Engagement & Consultation</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Livelihood Restoration Strategies</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Monitoring and Evaluation</span>
+            </div>
+        </div>
+    </div>
+</div>
     </section>
 
     <section class="cta-section">

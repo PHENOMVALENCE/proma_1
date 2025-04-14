@@ -680,7 +680,7 @@ body {
 /* CTA Section Styles */
 .cta-section {
     padding: 100px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('cta-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

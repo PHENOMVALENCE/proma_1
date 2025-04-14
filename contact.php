@@ -387,11 +387,11 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
-                    <p>Property Valuation & Real Estate Services</p>
+                    <p></p>
                 </div>
             </div>
             <div class="hamburger-menu">
@@ -421,7 +421,7 @@
         <div class="container">
             <div class="contact-intro">
                 <h2>Get In Touch</h2>
-                <p>We are not office traditionalists, our business is everywhere and so are we.<br> You can find us remotely between Dar es Salaam and Zanzibar, Tanzania.</p>
+                <p>We are not office traditionalists, our business is everywhere and so are we.<br> You can find us remotely between Tanzania Mainland and Tanzania islands (Zanzibar)</p>
             </div>
             
             <div class="contact-content">

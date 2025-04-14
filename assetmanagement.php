@@ -203,11 +203,11 @@
         <div class="container">
             <div class="nav-left">
                 <div class="logo">
-                    <a href="index.php"><img src="1.png" alt="Proma Africa Logo"></a>
+                    <a href="index.php"><img src="2.png" alt="Proma Africa Logo"></a>
                 </div>
                 <div class="site-title">
                     <h1>Proma Africa</h1>
-                    <p>Property Valuation & Real Estate Services</p>
+                    <p></p>
                 </div>
             </div>
             <div class="hamburger-menu">
@@ -352,7 +352,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="1.png" alt="Proma Africa Logo">
+                    <img src="2.png" alt="Proma Africa Logo">
                     <p>Your trusted partner in property valuation and real estate services.</p>
                 </div>
                 <div class="footer-links">

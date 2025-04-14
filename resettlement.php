@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Management - Proma Africa</title>
+    <title>Resettlement and Livelihood Restoration - Proma Africa</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Page Header Styles */
         .page-header {
             height: 300px;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b4.jpg');
-            /* Replace with an appropriate image */
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('b4.jpg'); /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             display: flex;
@@ -124,8 +122,7 @@
         /* CTA Section Styles */
         .cta-section {
             padding: 80px 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg');
-            /* Replace with an appropriate image */
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('b4.jpg'); /* Replace with an appropriate image */
             background-size: cover;
             background-position: center;
             color: white;
@@ -169,13 +166,11 @@
             padding: 40px 0;
             text-align: center;
         }
-
         .footer .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
         }
-
         /* Add more footer styles as needed */
 
         /* Responsive Styles */
@@ -203,7 +198,6 @@
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
     <nav class="navbar">
         <div class="container">
@@ -233,58 +227,48 @@
 
     <section class="page-header">
         <div class="header-content">
-            <h1>Property Management</h1>
-            <p>Maximize your property's potential with our expert management services.</p>
+            <h1>Resettlement and Livelihood Restoration</h1>
+            <p>Supporting communities through responsible and sustainable resettlement processes.</p>
         </div>
     </section>
-
     <section class="services-detailed">
         <div class="container">
             <div class="services-intro">
-                <h2>Comprehensive Property Management Solutions</h2>
-                <p>
-                    Proma Africa's property management services are designed to optimize the performance and profitability of your real estate assets. We offer comprehensive solutions tailored to individual owners, private institutions, and government entities, ensuring that your property is managed efficiently and effectively. Our goal is to maximize your returns while minimizing your risks and operational burdens.
-                </p>
-                <p>
-                    We handle all aspects of property management, from tenant relations and lease administration to maintenance, financial reporting, and compliance with regulations. Our proactive approach and attention to detail ensure that your property is well-maintained, tenants are satisfied, and your investment is protected.
-                </p>
+                <h2>Empowering Communities Through Careful Resettlement and Sustainable Livelihood Restoration</h2>
+                <p>Proma Africa is dedicated to providing expert consultancy services in Resettlement and Livelihood Restoration. We understand the complexities and sensitivities involved in displacement and are committed to ensuring that affected communities are supported through fair, transparent, and sustainable processes. Our approach focuses on minimizing negative impacts and maximizing opportunities for improved livelihoods.</p>
+                <p>Our experienced team works closely with stakeholders, including governments, developers, and local communities, to develop and implement comprehensive Resettlement Action Plans (RAPs) and Livelihood Restoration Programs that adhere to international best practices and local regulations.</p>
             </div>
-
             <div class="service-detailed-item">
                 <div class="service-icon">
-                    <i class="fas fa-building-shield"></i>
+                    <i class="fas fa-home"></i>
                 </div>
                 <div class="service-content">
-                    <h3>Our Property Management Services</h3>
-                    <p>We provide a full range of services to ensure the smooth operation and financial success of your property.</p>
+                    <h3>Resettlement Planning and Implementation</h3>
+                    <p>We provide comprehensive services for the planning and execution of resettlement projects, ensuring minimal disruption and fair compensation for displaced persons.</p>
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Tenant Screening and Acquisition</span>
+                            <span>Socio-economic surveys and impact assessments</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Lease Administration and Enforcement</span>
+                            <span>Development of Resettlement Action Plans (RAPs)</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Rent Collection and Financial Reporting</span>
+                            <span>Stakeholder engagement and consultation</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Property Maintenance and Repairs</span>
+                            <span>Compensation and grievance mechanisms</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Vendor Management</span>
+                            <span>Relocation assistance and support</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Regular Property Inspections</span>
-                        </div>
-                        <div class="feature">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Legal and Regulatory Compliance</span>
+                            <span>Monitoring and evaluation of resettlement outcomes</span>
                         </div>
                     </div>
                 </div>
@@ -292,55 +276,83 @@
 
             <div class="service-detailed-item">
                 <div class="service-icon">
-                    <i class="fas fa-hand-holding-usd"></i>
+                    <i class="fas fa-handshake"></i>
                 </div>
                 <div class="service-content">
-                    <h3>Key Benefits of Our Services</h3>
-                    <p>Discover how our property management services can benefit you:</p>
+                    <h3>Livelihood Restoration Programs</h3>
+                    <p>Our livelihood restoration programs are designed to help displaced persons rebuild and improve their livelihoods in a sustainable manner.</p>
                     <div class="service-features">
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Maximized Returns: We focus on optimizing rental income and controlling expenses to increase your profitability.</span>
+                            <span>Assessment of pre-displacement livelihoods</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Reduced Vacancy: Our effective marketing and tenant retention strategies minimize vacancy periods.</span>
+                            <span>Development of tailored livelihood restoration strategies</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Professional Tenant Relations: We ensure positive and respectful interactions with tenants, leading to higher satisfaction and retention.</span>
+                            <span>Skills training and capacity building</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Property Preservation: Regular maintenance and inspections protect your property's value and prevent costly repairs.</span>
+                            <span>Support for income-generating activities</span>
                         </div>
                         <div class="feature">
                             <i class="fas fa-check-circle"></i>
-                            <span>Stress-Free Ownership: We handle all the day-to-day management tasks, giving you peace of mind and more time.</span>
+                            <span>Financial literacy and access to credit</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Long-term monitoring of livelihood sustainability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detailed-item">
+                <div class="service-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Socio-economic Baseline Surveys</h3>
+                    <p>We conduct thorough socio-economic baseline surveys to understand the existing conditions of communities prior to displacement, providing crucial data for effective resettlement and livelihood planning.</p>
+                    <div class="service-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Detailed household surveys and data collection</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Analysis of socio-economic indicators</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Community profiling and vulnerability assessments</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reporting and data visualization</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Optimize Your Property Investment</h2>
-                <p>
-                    Let Proma Africa take the hassle out of property ownership. Our dedicated team is ready to provide expert management services that protect your investment and enhance your returns. Contact us today to learn more about how we can help you achieve your property goals.
-                </p>
-                <a href="contact.php" class="cta-button">Get Started</a>
+                <h2>Need Support with Resettlement and Livelihood Restoration?</h2>
+                <p>Contact Proma Africa for expert guidance and solutions tailored to your project's needs, ensuring positive outcomes for affected communities.</p>
+                <a href="contact.php" class="cta-button">Get in Touch</a>
             </div>
         </div>
     </section>
-
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="1.png" alt="Proma Africa Logo">
+                    <img src="2.png" alt="Proma Africa Logo">
                     <p>Your trusted partner in property valuation and real estate services.</p>
                 </div>
                 <div class="footer-links">
@@ -363,12 +375,10 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy;
-                    <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> Proma Africa. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
-
     <script>
         // JavaScript for hamburger menu toggle
         document.getElementById('menuIcon').addEventListener('click', function() {
@@ -386,5 +396,4 @@
         });
     </script>
 </body>
-
 </html>

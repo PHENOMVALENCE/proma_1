@@ -6,7 +6,7 @@
             </div>
             <div class="site-title">
                 <h1>Proma Africa</h1>
-                <p>Property Valuation & Real Estate Services</p>
+                <p></p>
             </div>
         </div>
         <div class="hamburger-menu">
